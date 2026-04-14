@@ -1,0 +1,4 @@
+jupyter-book
+plotly
+ipywidgets<8
+numpy
