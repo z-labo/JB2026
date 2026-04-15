@@ -14,8 +14,8 @@ launch_buttons:
   thebe: true
 
 html:
-  use_repository_button: true
-  use_issues_button: true
+  use_repository_button: false
+  use_issues_button: false
 
 sphinx:
   config:
