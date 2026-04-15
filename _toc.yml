@@ -2,4 +2,6 @@ format: jb-book
 root: intro
 
 chapters:
+  - file: introduction
   - file: jb2026
+
