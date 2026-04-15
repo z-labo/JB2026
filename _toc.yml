@@ -3,6 +3,7 @@ root: intro
 
 chapters:
   - file: introduction
-  - file: jb2026
   - file: network_experiment
+  - file: jb2026
+
 
