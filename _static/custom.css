@@ -1,0 +1,4 @@
+.download-ipynb-link, 
+.download-source-link {
+    display: none !important;
+}
