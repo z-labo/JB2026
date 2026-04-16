@@ -9,13 +9,14 @@ repository:
   branch: main
 
 launch_buttons:
-  binderhub_url: https://mybinder.org
-  notebook_interface: jupyterlab
-  thebe: true
+  binderhub_url: ""
+  notebook_interface: ""
+  thebe: false
 
 html:
   use_repository_button: false
   use_issues_button: false
+  use_download_button: false
 
 sphinx:
   config:
