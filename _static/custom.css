@@ -1,4 +1,6 @@
-.download-ipynb-link, 
-.download-source-link {
+.dropdown-launch-buttons {
+    display: none !important;
+}
+.dropdown-download-buttons {
     display: none !important;
 }
