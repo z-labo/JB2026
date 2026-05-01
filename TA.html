@@ -1,0 +1,723 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>TA業務について &#8212; 情報電子オプティクス実験B ネットワーク実験</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.30.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@*/dist/embed-amd.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'TA';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="実験要領" href="network_experiment.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">情報電子オプティクス実験B ネットワーク実験</p>
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    挨拶
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">概要</a></li>
+<li class="toctree-l1"><a class="reference internal" href="network_experiment.html">実験要領</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">TA業務について</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/TA.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>TA業務について</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">1．TAについて</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">2．個人情報の取り扱いについて</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">3．本講義の実施形式</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">4．本テーマにおけるTA業務について</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">4.1 業務内容</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">授業開始前：授業開始10分前を目安に情報工学実験室に集合</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">授業中： 担当範囲の学生を中心に指導補助</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">授業終了後</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">ラウンド終了時（各グループ終了時、計3回）</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">授業中混雑時の対応(3日目のみ)</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">4.2 担当範囲</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">4.3 報告書</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pc">4.4 実験PCの運用サポート</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">4.4.1 アカウント設定</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">4.4.2 設定初期化作業</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">4.5 レポートのチェック</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">4.5.1 チェック方法</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">4.5.2 レポートチェックスケジュール</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="ta">
+<h1>TA業務について<a class="headerlink" href="#ta" title="Permalink to this heading">#</a></h1>
+<section id="id1">
+<h2>1．TAについて<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>TAは給与が支払われる責任のある仕事です。そのことを自覚し主体的に取り組んで下さい。</p></li>
+<li><p>特に、実験では受講生が臨場感を持って活発に参加できるように、盛り立ててあげてください。</p></li>
+</ul>
+</section>
+<section id="id2">
+<h2>2．個人情報の取り扱いについて<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>平成17年4月1日より個人情報保護法が施行されました。</p></li>
+<li><p>場合によっては重い罰則を課せられることがあるので、個人情報の取り扱いについては十分に注意すること。</p></li>
+</ul>
+</section>
+<section id="id3">
+<h2>3．本講義の実施形式<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>講義全体については、 <a class="reference external" href="http://www.ced.is.utsunomiya-u.ac.jp/lecture/2026/jikkenb/R8guidance.pdf">ガイダンス資料</a> を参照してください。</p></li>
+<li><p>本テーマの資料は <a class="reference external" href="https://www.dropbox.com/scl/fo/fp009myoa8b71s9ag4zgx/AHexZP1tZ9Epeeh_GgFPRGk?rlkey=38hdv5lq3a65sc33s028j7ofe&amp;st=dwsuuerq&amp;dl=0">Dropbox</a> に格納してあります。</p></li>
+</ul>
+</section>
+<section id="id4">
+<h2>4．本テーマにおけるTA業務について<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h2>
+<section id="id5">
+<h3>4.1 業務内容<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h3>
+<section id="id6">
+<h4>授業開始前：授業開始10分前を目安に情報工学実験室に集合<a class="headerlink" href="#id6" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p>ドアの開放</p></li>
+<li><p>機材の収納されている段ボールを机の上に出す</p></li>
+<li><p>機材を各班の机に配布</p></li>
+<li><p>PC本体（対応する班番号），ディスプレイ，キーボード，マウス，電源ケーブル2本（PC，ディスプレイ用），LANケーブル2本（パケット観測装置あり・なし各1本）</p></li>
+<li><p>サーバPCの設置</p></li>
+<li><p>スイッチングハブの設置とサーバ周りのネットワークケーブルの配線</p></li>
+<li><p>サーバからのLANケーブルは，ネットワークハブの8番に接続</p></li>
+</ul>
+</section>
+<section id="id7">
+<h4>授業中： <a class="reference external" href="https://z-labo.github.io/JB2026/jb2026.html#id11">担当範囲</a>の学生を中心に指導補助<a class="headerlink" href="#id7" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p>出席チェック</p></li>
+<li><p>遅刻した学生については出席表に分単位で遅刻時間を記録してください</p></li>
+<li><p>質問対応の他、実施状況を主体的に確認し、臨場感を持って活発に参加できるように積極的に声をかけてあげてください</p></li>
+<li><p>受講生の学習を促すように、どのように考えるのか、指針を示し導くような指導補助をお願いします</p></li>
+<li><p>機材の取り扱いについて、正しくない使用方法をとっているときには正しい使用方法を教えてあげてください</p></li>
+<li><p>促しているにも関わらず実験に参加している様子がない，席を外して他の人と無駄話をしていてサボっている等，受講態度に問題がある学生については，出席表にメモしておいてください</p></li>
+</ul>
+</section>
+<section id="id8">
+<h4>授業終了後<a class="headerlink" href="#id8" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p>機材の片付け、段ボールを棚に戻す</p></li>
+<li><p>メールで当日中に <a class="reference external" href="https://z-labo.github.io/JB2026/jb2026.html#id12">報告書</a>を提出</p></li>
+</ul>
+</section>
+<section id="id9">
+<h4>ラウンド終了時（各グループ終了時、計3回）<a class="headerlink" href="#id9" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p>各班PCの<a class="reference external" href="https://z-labo.github.io/JB2026/jb2026.html#id14">設定初期化作業</a></p></li>
+<li><p>初回提出レポートの<a class="reference external" href="https://z-labo.github.io/JB2026/jb2026.html#id15">書式チェック</a></p></li>
+</ul>
+</section>
+<section id="id10">
+<h4>授業中混雑時の対応(3日目のみ)<a class="headerlink" href="#id10" title="Permalink to this heading">#</a></h4>
+<ul>
+<li><p>クライアント-サーバ間のパケット伝送に関して，サーバ/ルータへのアクセス集中を予防するために， <a class="reference external" href="https://docs.google.com/spreadsheets/d/1mPgSMAgqTgaBmLnlQG-bsSq9ibBL3UDG7k5OipLJPNY/edit?usp=sharing">実験状況確認シート</a> の共同編集と参照による各班の順次実行の運用サポートをおねがいします。</p></li>
+<li><p>スマホなどで<a class="reference external" href="https://docs.google.com/spreadsheets/d/1mPgSMAgqTgaBmLnlQG-bsSq9ibBL3UDG7k5OipLJPNY/edit?usp=sharing">実験状況確認シート</a> のリアルタイム編集・参照ができるように準備をおねがいします。</p></li>
+<li><p>パケット伝送（ping，send/recv）を実行するのは同時刻において一班のみとします。そのため1班から7班まで実行の順番を回していきます。</p>
+<p><strong>手順</strong></p>
+<ol class="arabic simple">
+<li><p>【受講生】順番が回ってくる前に，次の計測で実施するコマンドを入力した状態で待機</p></li>
+<li><p>【受講生】待機中は，計測済みのデータ整理，考察を実施</p></li>
+<li><p>【TA】自身の担当班に順番が回ってきたら，該当のステータスを「実行中（■）」に修正し，受講生に実行の指示．原則1回の順番で1回の計測．2~3回は許容するが，それ以上の実行は3.として取り扱う</p></li>
+<li><p>【TA】2分以内を目安に実行ができない場合は，この回の順番は終了．該当のステータスを「NG（×）」に修正．次の班担当のTAに順番を回すことを伝達</p>
+<ul class="simple">
+<li><p>順番が回って来てから送信コマンドのパラメータを考えるようなケースが該当</p></li>
+</ul>
+</li>
+<li><p>【TA】実行ができた場合，該当のステータスを「OK（○）」に修正．次の班担当のTAに順番を回すことを伝達</p></li>
+</ol>
+</li>
+</ul>
+</section>
+</section>
+<section id="id11">
+<h3>4.2 担当範囲<a class="headerlink" href="#id11" title="Permalink to this heading">#</a></h3>
+<p>あくまで主担当の範囲になりますので、状況に応じて近隣のサポートをお願いします。<a class="reference external" href="https://www.dropbox.com/scl/fi/wop61fofjp6uuhssfw1px/jb26net_seat.pdf?rlkey=ibuqd28oe3mntru38z0qgqq9h&amp;st=fal2l8z1&amp;dl=0">班座席表</a></p>
+<p>ラウンド　１</p>
+<ul class="simple">
+<li><p>佐々木 ：C1 班</p></li>
+<li><p>高林 ：C2，C3班</p></li>
+<li><p>呑村 ：C4, C5班</p></li>
+<li><p>山ノ井 ：C6，C7班</p></li>
+</ul>
+<p>ラウンド　２</p>
+<ul class="simple">
+<li><p>高林 ：B1 班</p></li>
+<li><p>呑村 ：B2，B3班</p></li>
+<li><p>山ノ井 ：B4, B5班</p></li>
+<li><p>佐々木 ：B6，B7班</p></li>
+</ul>
+<p>ラウンド　３</p>
+<ul class="simple">
+<li><p>呑村 ：A1 班</p></li>
+<li><p>高林 ：A2，A3班</p></li>
+<li><p>佐々木 ：A4, A5班</p></li>
+<li><p>山ノ井 ：A6，A7班</p></li>
+</ul>
+</section>
+<section id="id12">
+<h3>4.3 報告書<a class="headerlink" href="#id12" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>全 、および本テーマの他のTA3名宛てに各授業回終了後、当日中にメールで提出してください。</p></li>
+<li><p>メール書式</p>
+<ul>
+<li><p><strong>宛先</strong> 　 全 、および自分以外のTA3名</p></li>
+<li><p><strong>件名</strong> 　実験Bネットワーク実験TA報告書(MM月DD日分)</p></li>
+<li><p><strong>内容</strong></p>
+<ol class="arabic simple">
+<li><p>勤務内容報告</p></li>
+<li><p>授業中に学生から受けた質問とそれに対してどのように回答したか</p></li>
+<li><p>当日の授業に関する意見・感想など</p></li>
+<li><p>その他，気が付いたことなど</p></li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="pc">
+<h3>4.4 実験PCの運用サポート<a class="headerlink" href="#pc" title="Permalink to this heading">#</a></h3>
+<section id="id13">
+<h4>4.4.1 アカウント設定<a class="headerlink" href="#id13" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p><strong>実験用クライアントPC</strong></p>
+<ul>
+<li><p>実験用アカウント</p>
+<ul>
+<li><p>アカウント名：netX (Xは班番号)</p></li>
+<li><p>PW：アカウント名と同じ</p></li>
+</ul>
+</li>
+<li><p>管理用アカウント</p>
+<ul>
+<li><p>アカウント名：jstaff</p></li>
+<li><p>PW：jstaff2016JSTAFF</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>サーバPC</strong></p>
+<ul>
+<li><p>アカウント名：jstaff</p></li>
+<li><p>PW：jstaff2016JSTAFF</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="id14">
+<h4>4.4.2 設定初期化作業<a class="headerlink" href="#id14" title="Permalink to this heading">#</a></h4>
+<ol class="arabic simple">
+<li><p>管理用アカウント（ID: jstaff / PW: jstaff2016JSTAFF）でログイン</p></li>
+<li><p>スタートを右クリック＞ネットワーク接続</p></li>
+<li><p>プロパティ＞ipv4をDHCPへ</p></li>
+<li><p>構成＞詳細＞speedをAutoへ</p></li>
+<li><p>Wi-FIを右クリック</p></li>
+<li><p>接続/切断＞Wi-Fiの設定を管理&gt;ISExp2_WIFIのプロファイルを消す</p></li>
+<li><p>スタートを右クリック＞システム＞システムの詳細設定＞ユーザプロファイル設定＞netXを削除</p></li>
+<li><p>ルータのリセット</p></li>
+<li><p>pin長押し</p></li>
+</ol>
+</section>
+</section>
+<section id="id15">
+<h3>4.5 レポートのチェック<a class="headerlink" href="#id15" title="Permalink to this heading">#</a></h3>
+<section id="id16">
+<h4>4.5.1 チェック方法<a class="headerlink" href="#id16" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p>メールで共有される担当の割り当てファイルに従って，担当シートの該当の項目の書式チェック</p>
+<ul>
+<li><p>ファイル名中の*は，グループを表すA/B/C</p></li>
+<li><p>チェック方法については「チェック方法」シートに記載</p></li>
+<li><p>作業量の削減のため一項目一人でのチェックになるため，それを念頭に丁寧なチェックをお願いします</p></li>
+</ul>
+</li>
+<li><p>担当項目について</p>
+<ul>
+<li><p>メールを参照</p></li>
+<li><p>慣れもあるため、3グループのチェックすべてで統一</p></li>
+<li><p>ただし，負担の平均化のために要望があれば，皆さんで相談して交換してもらっても構いません</p></li>
+<li><p>体調不良や就職活動、論文投稿等の理由により余裕がない場合はTA内で代役等の調整をお願いします</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="id17">
+<h4>4.5.2 レポートチェックスケジュール<a class="headerlink" href="#id17" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p><strong>第1グループ（グループC）</strong></p>
+<ul>
+<li><p>5/27(水) 12:30 レポートの提出締切．締切後にチェック作業開始</p></li>
+<li><p>6/3(水) 15:00 チェック締切． 全へファイルを送付完了</p></li>
+</ul>
+</li>
+<li><p><strong>第2グループ（グループB）</strong></p>
+<ul>
+<li><p>6/ 10 (水) 12:30 レポートの提出締切．締切後にチェック作業開始</p></li>
+<li><p>6/17(水) 15:00 チェック締切． 全へファイルを送付完了</p></li>
+</ul>
+</li>
+<li><p><strong>第3グループ（グループA）</strong></p>
+<ul>
+<li><p>6/29( 月 ) 1 4 :10 レポートの提出締切．締切後にチェック作業開始</p></li>
+<li><p>7/6( 月 ) 15:00 チェック締切． 全へファイルを送付完了</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="network_experiment.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">実験要領</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">1．TAについて</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">2．個人情報の取り扱いについて</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">3．本講義の実施形式</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">4．本テーマにおけるTA業務について</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">4.1 業務内容</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">授業開始前：授業開始10分前を目安に情報工学実験室に集合</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">授業中： 担当範囲の学生を中心に指導補助</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">授業終了後</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">ラウンド終了時（各グループ終了時、計3回）</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">授業中混雑時の対応(3日目のみ)</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">4.2 担当範囲</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">4.3 報告書</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pc">4.4 実験PCの運用サポート</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">4.4.1 アカウント設定</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">4.4.2 設定初期化作業</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">4.5 レポートのチェック</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">4.5.1 チェック方法</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">4.5.2 レポートチェックスケジュール</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Zen
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
